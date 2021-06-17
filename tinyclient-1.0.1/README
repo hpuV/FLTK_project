@@ -1,0 +1,56 @@
+========================================================
+Tiny Mud Client (tinyclient)
+========================================================
+
+Author: Nick Gammon
+Email:  nick@gammon.com.au
+Date:   8th January 2003
+Web:    www.gammon.com.au
+
+Post questions, comments, bug reports to the forum at:
+
+        http://www.gammon.com.au/forum/
+
+COPYRIGHT
+
+ This program is placed in the public domain. 
+
+ You may use it as a starting point for writing your own MUD client.
+
+CREDIT
+
+ I would appreciated being credited in the event that you use this code.
+
+NO WARRANTY
+
+ Because the program is in the public domain, there is no warranty for the program,
+ to the extent permitted by applicable law.
+
+ The author provides the program "as is" without warranty of any kind, either
+ expressed or implied, including, but not limited to, the implied warranties of
+ merchantability and fitness for a particular purpose.
+
+ The entire risk as to the quality and performance of the program is with you.
+
+ Should the program prove defective, you assume the cost of all necessary servicing,
+ repair or correction.
+
+INSTALLATION
+
+ The simplest way to compile the program is to type "make". This should use the
+ enclosed "Makefile" to compile and link. If this doesn't work, to compile without
+ using the makefile:
+
+   gcc tinyclient.c -o tinyclient -g -Wall
+
+EXECUTION
+
+ Run the client like this:
+
+  ./tinyclient
+
+TESTING
+
+ The default behaviour is to connect to localhost on port 4000 (change defines in 
+ the code to alter this). 
+
